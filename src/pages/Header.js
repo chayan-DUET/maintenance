@@ -32,6 +32,9 @@ export default function Header() {
                   <Link to="blog">Blog</Link>
                 </li>
                 <li>
+                  <Link to="registration">Reg</Link>
+                </li>
+                <li>
                   <label htmlFor="drop-2" className="toggle">
                     Drop Down{" "}
                     <span className="fa fa-angle-down" aria-hidden="true" />{" "}
@@ -49,7 +52,7 @@ export default function Header() {
                       <a href="shop.html">Shop Now</a>
                     </li>
                     <li>
-                      <a href="shop-single.html">Single Page</a>
+                      <Link to="/shop-single">Single Page</Link>
                     </li>
                   </ul>
                 </li>

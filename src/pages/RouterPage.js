@@ -7,6 +7,7 @@ import Header from './Header'
 import HeaderTwo from './HeaderTwo'
 import Home from './Home'
 import ShopSingle from './ShopSingle'
+import Registration from '../components/registration'
 
 export default function RouterPage() {
   return (
@@ -16,6 +17,7 @@ export default function RouterPage() {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
+                <Route path='/registration' element={<HeaderTwo><Registration /></HeaderTwo>} />
                 <Route path='/blog' element={<HeaderTwo><Blog /></HeaderTwo>} />
                 <Route path='/shop-single' element={<HeaderTwo><ShopSingle /></HeaderTwo>} />
             </Routes>
